@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+cd /autograder/source
+cp -rp /autograder/submission/labs dslabs
+cd dslabs
+
+./run-tests.py --lab 2 --part 1 -n 1 > /autograder/results/result1.out
+./run-tests.py --lab 2 --part 1 -n 2 > /autograder/results/result2.out
+./run-tests.py --lab 2 --part 1 -n 3 > /autograder/results/result3.out
+./run-tests.py --lab 2 --part 1 -n 4 > /autograder/results/result4.out
+./run-tests.py --lab 2 --part 1 -n 5 > /autograder/results/result5.out
+./run-tests.py --lab 2 --part 1 -n 6 > /autograder/results/result6.out
+./run-tests.py --lab 2 --part 1 -n 7 > /autograder/results/result7.out
+./run-tests.py --lab 2 --part 1 -n 8 > /autograder/results/result8.out
+./run-tests.py --lab 2 --part 1 -n 9 > /autograder/results/result9.out
+./run-tests.py --lab 2 --part 1 -n 10 > /autograder/results/result10.out
+./run-tests.py --lab 2 --part 1 -n 11 > /autograder/results/result11.out
+./run-tests.py --lab 2 --part 1 -n 12 > /autograder/results/result12.out
+cd /autograder/source
+cat /autograder/results/result*.out > /autograder/results/results.out
+./gen_output.py /autograder/results/results.out > /autograder/results/results.json
+rm -rf /autograder/source/dslabs/labs/lab2-primarybackup/src
+

@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+cd /autograder/source
+cp -rp /autograder/submission/labs dslabs 
+cd dslabs
+
+./run-tests.py --lab 1 > /autograder/results/results.out
+cd /autograder/source
+./gen_output.py /autograder/results/results.out > /autograder/results/results.json
+rm -rf /autograder/source/dslabs/labs/lab1-clientserver/src
