@@ -1,0 +1,147 @@
+{
+    "score": 270.0,
+    "execution_time": null,
+    "tests": [
+        {
+            "number": "2.1",
+            "name": "Client throws InterruptedException [RUN]",
+            "max_score": 5.0,
+            "output": "PASS",
+            "score": 5.0
+        },
+        {
+            "number": "2.2",
+            "name": "Single client, single server, simple operations [RUN]",
+            "max_score": 5.0,
+            "output": "PASS",
+            "score": 5.0
+        },
+        {
+            "number": "2.3",
+            "name": "Primary chosen [RUN]",
+            "max_score": 5.0,
+            "output": "PASS",
+            "score": 5.0
+        },
+        {
+            "number": "2.4",
+            "name": "Backup is chosen [RUN]",
+            "max_score": 5.0,
+            "output": "PASS",
+            "score": 5.0
+        },
+        {
+            "number": "2.5",
+            "name": "Count number of ViewServer requests [RUN]",
+            "max_score": 10.0,
+            "output": "PASS",
+            "score": 10.0
+        },
+        {
+            "number": "2.6",
+            "name": "Backup takes over [RUN]",
+            "max_score": 10.0,
+            "output": "PASS",
+            "score": 10.0
+        },
+        {
+            "number": "2.7",
+            "name": "Kill all servers [RUN]",
+            "max_score": 10.0,
+            "output": "PASS",
+            "score": 10.0
+        },
+        {
+            "number": "2.8",
+            "name": "At-most-once append [RUN] [UNRELIABLE]",
+            "max_score": 15.0,
+            "output": "PASS",
+            "score": 15.0
+        },
+        {
+            "number": "2.9",
+            "name": "Fail to new backup [RUN]",
+            "max_score": 10.0,
+            "output": "PASS",
+            "score": 10.0
+        },
+        {
+            "number": "2.10",
+            "name": "Concurrent puts, same keys, fail to backup [RUN]",
+            "max_score": 15.0,
+            "output": "PASS",
+            "score": 15.0
+        },
+        {
+            "number": "2.11",
+            "name": "Concurrent appends, same key, fail to backup [RUN]",
+            "max_score": 15.0,
+            "output": "PASS",
+            "score": 15.0
+        },
+        {
+            "number": "2.12",
+            "name": "Concurrent puts, same keys, fail to backup [RUN] [UNRELIABLE]",
+            "max_score": 20.0,
+            "output": "PASS",
+            "score": 20.0
+        },
+        {
+            "number": "2.13",
+            "name": "Concurrent appends, same key, fail to backup [RUN] [UNRELIABLE]",
+            "max_score": 20.0,
+            "output": "PASS",
+            "score": 20.0
+        },
+        {
+            "number": "2.14",
+            "name": "Repeated crashes [RUN]",
+            "max_score": 15.0,
+            "output": "PASS",
+            "score": 15.0
+        },
+        {
+            "number": "2.15",
+            "name": "Repeated crashes [RUN] [UNRELIABLE]",
+            "max_score": 20.0,
+            "output": "PASS",
+            "score": 20.0
+        },
+        {
+            "number": "2.16",
+            "name": "Single client, single server [SEARCH]",
+            "max_score": 15.0,
+            "output": "PASS",
+            "score": 15.0
+        },
+        {
+            "number": "2.17",
+            "name": "Single client, multi-server [SEARCH]",
+            "max_score": 15.0,
+            "output": "PASS",
+            "score": 15.0
+        },
+        {
+            "number": "2.18",
+            "name": "Multi-client, multi-server; writes visible [SEARCH]",
+            "max_score": 20.0,
+            "output": "PASS",
+            "score": 20.0
+        },
+        {
+            "number": "2.19",
+            "name": "Multi-client, multi-server; multiple failures to backup [SEARCH]",
+            "max_score": 20.0,
+            "output": "PASS",
+            "score": 20.0
+        },
+        {
+            "number": "2.20",
+            "name": "Multi-client, multi-server random depth-first search [SEARCH]",
+            "max_score": 20.0,
+            "output": "PASS",
+            "score": 20.0
+        }
+    ],
+    "stdout_visibility": "visible"
+}

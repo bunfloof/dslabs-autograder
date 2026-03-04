@@ -1,0 +1,42 @@
+--------------------------------------------------
+TEST 2.17: Single client, multi-server [SEARCH] (15pts)
+  START [2026-03-04 05:32:58.35]...
+
+Initializing view...
+View initialized.
+
+Starting breadth-first search...
+	Explored: 1, Depth: 16 (0.00s, 0.50K states/s)
+	Explored: 336, Depth: 24 (0.03s, 10.18K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 9, Depth: 18 (0.00s, 9.00K states/s)
+	Explored: 100448, Depth: 44 (3.01s, 33.38K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 22, Depth: 19 (0.00s, 22.00K states/s)
+	Explored: 195216, Depth: 34 (5.00s, 39.04K states/s)
+	Explored: 358979, Depth: 36 (10.00s, 35.89K states/s)
+	Explored: 500616, Depth: 37 (15.00s, 33.37K states/s)
+	Explored: 640016, Depth: 38 (20.00s, 32.00K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 0, Depth: 16 (0.00s, 0.00K states/s)
+	Explored: 187663, Depth: 29 (5.00s, 37.53K states/s)
+	Explored: 418416, Depth: 30 (10.00s, 41.84K states/s)
+	Explored: 617251, Depth: 31 (15.00s, 41.15K states/s)
+	Explored: 803007, Depth: 32 (20.00s, 40.14K states/s)
+Search finished.
+
+...PASS [2026-03-04 05:33:42.76] (44.408s)
+==================================================
+
+Tests passed: 1/1
+Points: 15/15 (100.00%)
+Total time: 44.417s
+
+ALL PASS
+==================================================

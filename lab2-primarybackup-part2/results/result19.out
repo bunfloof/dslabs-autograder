@@ -1,0 +1,44 @@
+--------------------------------------------------
+TEST 2.19: Multi-client, multi-server; multiple failures to backup [SEARCH] (20pts)
+  START [2026-03-04 05:34:47.35]...
+
+Initializing view...
+View initialized.
+
+Initializing view...
+View initialized.
+
+Starting breadth-first search...
+	Explored: 1, Depth: 24 (0.00s, 1.00K states/s)
+	Explored: 17, Depth: 26 (0.00s, 4.25K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 15, Depth: 28 (0.00s, 7.50K states/s)
+	Explored: 3924, Depth: 37 (0.17s, 23.22K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 1, Depth: 37 (0.01s, 0.10K states/s)
+	Explored: 635, Depth: 43 (0.02s, 26.46K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 33, Depth: 39 (0.00s, 33.00K states/s)
+	Explored: 3222, Depth: 55 (0.24s, 13.54K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 18, Depth: 28 (0.01s, 1.80K states/s)
+	Explored: 82164, Depth: 59 (2.77s, 29.65K states/s)
+Search finished.
+
+...PASS [2026-03-04 05:34:52.22] (4.87s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 4.881s
+
+ALL PASS
+==================================================

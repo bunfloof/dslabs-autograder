@@ -1,0 +1,381 @@
+--------------------------------------------------
+TEST 2.10: Concurrent puts, same keys, fail to backup [RUN] (15pts)
+  START [2026-03-04 05:31:30.58]...
+
+...PASS [2026-03-04 05:31:31.98] (1.407s)
+==================================================
+
+Tests passed: 1/1
+Points: 15/15 (100.00%)
+Total time: 1.411s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.11: Concurrent appends, same key, fail to backup [RUN] (15pts)
+  START [2026-03-04 05:31:32.19]...
+
+...PASS [2026-03-04 05:31:33.59] (1.401s)
+==================================================
+
+Tests passed: 1/1
+Points: 15/15 (100.00%)
+Total time: 1.408s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.12: Concurrent puts, same keys, fail to backup [RUN] [UNRELIABLE] (20pts)
+  START [2026-03-04 05:31:33.85]...
+
+...PASS [2026-03-04 05:31:45.46] (11.61s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 11.62s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.13: Concurrent appends, same key, fail to backup [RUN] [UNRELIABLE] (20pts)
+  START [2026-03-04 05:31:45.68]...
+
+...PASS [2026-03-04 05:31:56.93] (11.256s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 11.263s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.14: Repeated crashes [RUN] (15pts)
+  START [2026-03-04 05:31:57.16]...
+
+Maximum client wait time 1100 ms (5000 ms allowed)
+...PASS [2026-03-04 05:32:27.25] (30.086s)
+==================================================
+
+Tests passed: 1/1
+Points: 15/15 (100.00%)
+Total time: 30.092s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.15: Repeated crashes [RUN] [UNRELIABLE] (20pts)
+  START [2026-03-04 05:32:27.45]...
+
+Maximum client wait time 1002 ms (5000 ms allowed)
+...PASS [2026-03-04 05:32:57.54] (30.089s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 30.096s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.16: Single client, single server [SEARCH] (15pts)
+  START [2026-03-04 05:32:57.79]...
+
+Starting breadth-first search...
+	Explored: 1, Depth: 0 (0.01s, 0.09K states/s)
+	Explored: 286, Depth: 11 (0.16s, 1.80K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 6, Depth: 2 (0.00s, 6.00K states/s)
+	Explored: 552, Depth: 18 (0.10s, 5.75K states/s)
+Search finished.
+
+...PASS [2026-03-04 05:32:58.13] (0.335s)
+==================================================
+
+Tests passed: 1/1
+Points: 15/15 (100.00%)
+Total time: 0.342s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.17: Single client, multi-server [SEARCH] (15pts)
+  START [2026-03-04 05:32:58.35]...
+
+Initializing view...
+View initialized.
+
+Starting breadth-first search...
+	Explored: 1, Depth: 16 (0.00s, 0.50K states/s)
+	Explored: 336, Depth: 24 (0.03s, 10.18K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 9, Depth: 18 (0.00s, 9.00K states/s)
+	Explored: 100448, Depth: 44 (3.01s, 33.38K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 22, Depth: 19 (0.00s, 22.00K states/s)
+	Explored: 195216, Depth: 34 (5.00s, 39.04K states/s)
+	Explored: 358979, Depth: 36 (10.00s, 35.89K states/s)
+	Explored: 500616, Depth: 37 (15.00s, 33.37K states/s)
+	Explored: 640016, Depth: 38 (20.00s, 32.00K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 0, Depth: 16 (0.00s, 0.00K states/s)
+	Explored: 187663, Depth: 29 (5.00s, 37.53K states/s)
+	Explored: 418416, Depth: 30 (10.00s, 41.84K states/s)
+	Explored: 617251, Depth: 31 (15.00s, 41.15K states/s)
+	Explored: 803007, Depth: 32 (20.00s, 40.14K states/s)
+Search finished.
+
+...PASS [2026-03-04 05:33:42.76] (44.408s)
+==================================================
+
+Tests passed: 1/1
+Points: 15/15 (100.00%)
+Total time: 44.417s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.18: Multi-client, multi-server; writes visible [SEARCH] (20pts)
+  START [2026-03-04 05:33:43.14]...
+
+Initializing view...
+View initialized.
+
+Sending client requests...
+Client requests sent.
+
+Starting breadth-first search...
+	Explored: 1, Depth: 22 (0.00s, 1.00K states/s)
+	Explored: 457, Depth: 27 (0.03s, 15.23K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 8, Depth: 23 (0.01s, 0.80K states/s)
+	Explored: 138214, Depth: 37 (5.00s, 27.64K states/s)
+	Explored: 262819, Depth: 41 (10.00s, 26.28K states/s)
+	Explored: 360288, Depth: 50 (14.28s, 25.23K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 69, Depth: 24 (0.00s, 34.50K states/s)
+	Explored: 145577, Depth: 36 (5.00s, 29.10K states/s)
+	Explored: 275885, Depth: 39 (10.00s, 27.58K states/s)
+	Explored: 396236, Depth: 43 (15.00s, 26.41K states/s)
+	Explored: 432880, Depth: 50 (16.53s, 26.18K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 72, Depth: 21 (0.00s, 24.00K states/s)
+	Explored: 158693, Depth: 33 (5.00s, 31.72K states/s)
+	Explored: 299758, Depth: 35 (10.00s, 29.97K states/s)
+	Explored: 429095, Depth: 37 (15.00s, 28.60K states/s)
+	Explored: 554634, Depth: 38 (20.00s, 27.73K states/s)
+	Explored: 643829, Depth: 39 (25.00s, 25.75K states/s)
+	Explored: 741661, Depth: 40 (30.00s, 24.72K states/s)
+Search finished.
+
+...PASS [2026-03-04 05:34:47.04] (63.908s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 63.916s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.19: Multi-client, multi-server; multiple failures to backup [SEARCH] (20pts)
+  START [2026-03-04 05:34:47.35]...
+
+Initializing view...
+View initialized.
+
+Initializing view...
+View initialized.
+
+Starting breadth-first search...
+	Explored: 1, Depth: 24 (0.00s, 1.00K states/s)
+	Explored: 17, Depth: 26 (0.00s, 4.25K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 15, Depth: 28 (0.00s, 7.50K states/s)
+	Explored: 3924, Depth: 37 (0.17s, 23.22K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 1, Depth: 37 (0.01s, 0.10K states/s)
+	Explored: 635, Depth: 43 (0.02s, 26.46K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 33, Depth: 39 (0.00s, 33.00K states/s)
+	Explored: 3222, Depth: 55 (0.24s, 13.54K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 18, Depth: 28 (0.01s, 1.80K states/s)
+	Explored: 82164, Depth: 59 (2.77s, 29.65K states/s)
+Search finished.
+
+...PASS [2026-03-04 05:34:52.22] (4.87s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 4.881s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.1: Client throws InterruptedException [RUN] (5pts)
+  START [2026-03-04 05:31:14.93]...
+
+...PASS [2026-03-04 05:31:15.52] (0.583s)
+==================================================
+
+Tests passed: 1/1
+Points: 5/5 (100.00%)
+Total time: 0.591s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.20: Multi-client, multi-server random depth-first search [SEARCH] (20pts)
+  START [2026-03-04 05:34:52.49]...
+
+Starting random depth-first search...
+	Explored: 8, Num Probes: 5 (0.01s, 1.00K explored/s)
+	Explored: 1964065, Num Probes: 1832 (5.01s, 392.19K explored/s)
+	Explored: 4766598, Num Probes: 4440 (10.01s, 476.28K explored/s)
+	Explored: 7561467, Num Probes: 7040 (15.01s, 503.83K explored/s)
+	Explored: 10341579, Num Probes: 9626 (20.01s, 516.87K explored/s)
+	Explored: 13132296, Num Probes: 12225 (25.01s, 525.12K explored/s)
+	Explored: 15264124, Num Probes: 14209 (30.01s, 508.67K explored/s)
+	Explored: 18118507, Num Probes: 16866 (35.01s, 517.55K explored/s)
+	Explored: 20935214, Num Probes: 19486 (40.01s, 523.28K explored/s)
+	Explored: 23751569, Num Probes: 22105 (45.01s, 527.70K explored/s)
+Search finished.
+
+...PASS [2026-03-04 05:35:37.58] (45.095s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 45.102s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.2: Single client, single server, simple operations [RUN] (5pts)
+  START [2026-03-04 05:31:15.73]...
+
+...PASS [2026-03-04 05:31:15.84] (0.114s)
+==================================================
+
+Tests passed: 1/1
+Points: 5/5 (100.00%)
+Total time: 0.12s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.3: Primary chosen [RUN] (5pts)
+  START [2026-03-04 05:31:16.05]...
+
+...PASS [2026-03-04 05:31:16.53] (0.479s)
+==================================================
+
+Tests passed: 1/1
+Points: 5/5 (100.00%)
+Total time: 0.486s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.4: Backup is chosen [RUN] (5pts)
+  START [2026-03-04 05:31:16.75]...
+
+...PASS [2026-03-04 05:31:17.32] (0.578s)
+==================================================
+
+Tests passed: 1/1
+Points: 5/5 (100.00%)
+Total time: 0.584s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.5: Count number of ViewServer requests [RUN] (10pts)
+  START [2026-03-04 05:31:17.54]...
+
+...PASS [2026-03-04 05:31:18.89] (1.349s)
+==================================================
+
+Tests passed: 1/1
+Points: 10/10 (100.00%)
+Total time: 1.356s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.6: Backup takes over [RUN] (10pts)
+  START [2026-03-04 05:31:19.10]...
+
+...PASS [2026-03-04 05:31:19.98] (0.884s)
+==================================================
+
+Tests passed: 1/1
+Points: 10/10 (100.00%)
+Total time: 0.89s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.7: Kill all servers [RUN] (10pts)
+  START [2026-03-04 05:31:20.19]...
+
+...PASS [2026-03-04 05:31:21.18] (0.988s)
+==================================================
+
+Tests passed: 1/1
+Points: 10/10 (100.00%)
+Total time: 0.995s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.8: At-most-once append [RUN] [UNRELIABLE] (15pts)
+  START [2026-03-04 05:31:21.41]...
+
+...PASS [2026-03-04 05:31:28.81] (7.399s)
+==================================================
+
+Tests passed: 1/1
+Points: 15/15 (100.00%)
+Total time: 7.407s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.9: Fail to new backup [RUN] (10pts)
+  START [2026-03-04 05:31:29.07]...
+
+...PASS [2026-03-04 05:31:30.36] (1.296s)
+==================================================
+
+Tests passed: 1/1
+Points: 10/10 (100.00%)
+Total time: 1.303s
+
+ALL PASS
+==================================================
