@@ -1,0 +1,196 @@
+{
+    "score": 355.0,
+    "execution_time": null,
+    "tests": [
+        {
+            "number": "1",
+            "name": "Client throws InterruptedException [RUN]",
+            "max_score": 5.0,
+            "output": "PASS",
+            "score": 5.0
+        },
+        {
+            "number": "2",
+            "name": "Single client, simple operations [RUN]",
+            "max_score": 5.0,
+            "output": "PASS",
+            "score": 5.0
+        },
+        {
+            "number": "3",
+            "name": "Progress with no partition [RUN]",
+            "max_score": 5.0,
+            "output": "PASS",
+            "score": 5.0
+        },
+        {
+            "number": "4",
+            "name": "Progress in majority [RUN]",
+            "max_score": 5.0,
+            "output": "PASS",
+            "score": 5.0
+        },
+        {
+            "number": "5",
+            "name": "No progress in minority [RUN]",
+            "max_score": 5.0,
+            "output": "PASS",
+            "score": 5.0
+        },
+        {
+            "number": "6",
+            "name": "Progress after partition healed [RUN]",
+            "max_score": 5.0,
+            "output": "PASS",
+            "score": 5.0
+        },
+        {
+            "number": "7",
+            "name": "One server switches partitions [RUN]",
+            "max_score": 10.0,
+            "output": "PASS",
+            "score": 10.0
+        },
+        {
+            "number": "8",
+            "name": "Multiple clients, synchronous put/get [RUN]",
+            "max_score": 10.0,
+            "output": "PASS",
+            "score": 10.0
+        },
+        {
+            "number": "9",
+            "name": "Multiple clients, concurrent appends [RUN]",
+            "max_score": 10.0,
+            "output": "PASS",
+            "score": 10.0
+        },
+        {
+            "number": "10",
+            "name": "Message count [RUN]",
+            "max_score": 10.0,
+            "output": "PASS",
+            "score": 10.0
+        },
+        {
+            "number": "11",
+            "name": "Old commands garbage collected [RUN]",
+            "max_score": 15.0,
+            "output": "PASS",
+            "score": 15.0
+        },
+        {
+            "number": "12",
+            "name": "Single client, simple operations [RUN] [UNRELIABLE]",
+            "max_score": 10.0,
+            "output": "PASS",
+            "score": 10.0
+        },
+        {
+            "number": "13",
+            "name": "Two sequential clients [RUN] [UNRELIABLE]",
+            "max_score": 10.0,
+            "output": "PASS",
+            "score": 10.0
+        },
+        {
+            "number": "14",
+            "name": "Multiple clients, synchronous put/get [RUN] [UNRELIABLE]",
+            "max_score": 15.0,
+            "output": "PASS",
+            "score": 15.0
+        },
+        {
+            "number": "15",
+            "name": "Multiple clients, concurrent appends [RUN] [UNRELIABLE]",
+            "max_score": 15.0,
+            "output": "PASS",
+            "score": 15.0
+        },
+        {
+            "number": "16",
+            "name": "Multiple clients, single partition and heal [RUN]",
+            "max_score": 15.0,
+            "output": "PASS",
+            "score": 15.0
+        },
+        {
+            "number": "17",
+            "name": "Constant repartitioning, check maximum wait time [RUN]",
+            "max_score": 20.0,
+            "output": "PASS",
+            "score": 20.0
+        },
+        {
+            "number": "18",
+            "name": "Constant repartitioning, check maximum wait time [RUN] [UNRELIABLE]",
+            "max_score": 30.0,
+            "output": "PASS",
+            "score": 30.0
+        },
+        {
+            "number": "19",
+            "name": "Constant repartitioning, full throughput [RUN] [UNRELIABLE]",
+            "max_score": 30.0,
+            "output": "PASS",
+            "score": 30.0
+        },
+        {
+            "number": "20",
+            "name": "Single client, simple operations [SEARCH]",
+            "max_score": 20.0,
+            "output": "PASS",
+            "score": 20.0
+        },
+        {
+            "number": "21",
+            "name": "Single client, no progress in minority [SEARCH]",
+            "max_score": 15.0,
+            "output": "PASS",
+            "score": 15.0
+        },
+        {
+            "number": "22",
+            "name": "Two clients, sequential appends visible [SEARCH]",
+            "max_score": 30.0,
+            "output": "PASS",
+            "score": 30.0
+        },
+        {
+            "number": "23",
+            "name": "Two clients, five servers, multiple leader changes [SEARCH]",
+            "max_score": 20.0,
+            "output": "PASS",
+            "score": 20.0
+        },
+        {
+            "number": "24",
+            "name": "Handling of logs with holes [SEARCH]",
+            "max_score": 0.0,
+            "output": "PASS",
+            "score": 0.0
+        },
+        {
+            "number": "25",
+            "name": "Three server random search [SEARCH]",
+            "max_score": 20.0,
+            "output": "PASS",
+            "score": 20.0
+        },
+        {
+            "number": "26",
+            "name": "Five server random search [SEARCH]",
+            "max_score": 20.0,
+            "output": "PASS",
+            "score": 20.0
+        },
+        {
+            "number": "27",
+            "name": "Paxos runs in singleton group [RUN] [SEARCH]",
+            "max_score": 0.0,
+            "output": "PASS",
+            "score": 0.0
+        }
+    ],
+    "stdout_visibility": "visible"
+}

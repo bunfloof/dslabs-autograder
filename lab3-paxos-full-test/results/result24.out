@@ -1,0 +1,26 @@
+--------------------------------------------------
+TEST 24: Handling of logs with holes [SEARCH] (0pts)
+  START [2026-04-09 23:20:11.59]...
+
+Starting breadth-first search...
+	Explored: 1, Depth: 0 (0.01s, 0.14K states/s)
+	Explored: 9546, Depth: 6 (0.39s, 24.35K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 3, Depth: 7 (0.00s, 3.00K states/s)
+	Explored: 258869, Depth: 17 (5.00s, 51.76K states/s)
+	Explored: 484572, Depth: 18 (10.00s, 48.45K states/s)
+	Explored: 706423, Depth: 18 (15.05s, 46.95K states/s)
+	Explored: 855956, Depth: 18 (20.04s, 42.71K states/s)
+Search finished.
+
+...PASS [2026-04-09 23:20:32.12] (20.529s)
+==================================================
+
+Tests passed: 1/1
+Points: 0/0 (0.00%)
+Total time: 20.536s
+
+ALL PASS
+==================================================

@@ -1,0 +1,59 @@
+--------------------------------------------------
+TEST 22: Two clients, sequential appends visible [SEARCH] (30pts)
+  START [2026-04-09 23:18:38.21]...
+
+Starting breadth-first search...
+	Explored: 1, Depth: 0 (0.01s, 0.20K states/s)
+	Explored: 549, Depth: 6 (0.11s, 4.99K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 7, Depth: 7 (0.00s, 3.50K states/s)
+	Explored: 4990, Depth: 14 (0.22s, 23.00K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 8, Depth: 7 (0.00s, 8.00K states/s)
+	Explored: 1470, Depth: 12 (0.05s, 28.27K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 99, Depth: 10 (0.00s, 24.75K states/s)
+	Explored: 279452, Depth: 19 (5.01s, 55.83K states/s)
+	Explored: 557855, Depth: 19 (10.04s, 55.59K states/s)
+	Explored: 789220, Depth: 20 (15.04s, 52.49K states/s)
+	Explored: 934682, Depth: 20 (20.83s, 44.88K states/s)
+	Explored: 952082, Depth: 20 (26.29s, 36.21K states/s)
+	Explored: 960707, Depth: 20 (30.46s, 31.54K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 10, Depth: 8 (0.00s, 10.00K states/s)
+	Explored: 303096, Depth: 18 (5.00s, 60.61K states/s)
+	Explored: 560348, Depth: 19 (10.01s, 55.98K states/s)
+	Explored: 804335, Depth: 19 (15.01s, 53.59K states/s)
+	Explored: 958379, Depth: 20 (20.01s, 47.89K states/s)
+	Explored: 997095, Depth: 20 (25.07s, 39.78K states/s)
+	Explored: 1000500, Depth: 20 (30.84s, 32.44K states/s)
+	Explored: 1000508, Depth: 20 (30.84s, 32.44K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 80, Depth: 12 (0.01s, 11.43K states/s)
+	Explored: 1129, Depth: 21 (0.03s, 36.42K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 18, Depth: 10 (0.00s, 18.00K states/s)
+	Explored: 144, Depth: 17 (0.01s, 18.00K states/s)
+Search finished.
+
+...PASS [2026-04-09 23:19:40.02] (61.803s)
+==================================================
+
+Tests passed: 1/1
+Points: 30/30 (100.00%)
+Total time: 61.809s
+
+ALL PASS
+==================================================

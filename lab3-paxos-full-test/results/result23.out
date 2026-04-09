@@ -1,0 +1,51 @@
+--------------------------------------------------
+TEST 23: Two clients, five servers, multiple leader changes [SEARCH] (20pts)
+  START [2026-04-09 23:19:40.24]...
+
+Starting breadth-first search...
+	Explored: 1, Depth: 0 (0.01s, 0.14K states/s)
+	Explored: 1463, Depth: 5 (0.19s, 7.91K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 2, Depth: 6 (0.00s, 2.00K states/s)
+	Explored: 19, Depth: 7 (0.00s, 6.33K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 14, Depth: 7 (0.00s, 14.00K states/s)
+	Explored: 8799, Depth: 11 (0.22s, 39.81K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 616, Depth: 16 (0.01s, 61.60K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 6, Depth: 14 (0.00s, 3.00K states/s)
+	Explored: 14307, Depth: 23 (0.55s, 25.87K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 574, Depth: 27 (0.03s, 19.79K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 62, Depth: 25 (0.00s, 20.67K states/s)
+	Explored: 184287, Depth: 34 (5.00s, 36.84K states/s)
+	Explored: 341804, Depth: 34 (10.00s, 34.17K states/s)
+	Explored: 473505, Depth: 35 (15.00s, 31.56K states/s)
+	Explored: 591459, Depth: 35 (20.00s, 29.57K states/s)
+	Explored: 637076, Depth: 35 (25.74s, 24.75K states/s)
+	Explored: 646262, Depth: 35 (30.03s, 21.52K states/s)
+Search finished.
+
+...PASS [2026-04-09 23:20:11.37] (31.13s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 31.138s
+
+ALL PASS
+==================================================

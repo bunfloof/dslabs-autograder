@@ -1,0 +1,14 @@
+--------------------------------------------------
+TEST 17: Constant repartitioning, check maximum wait time [RUN] (20pts)
+  START [2026-04-09 23:15:14.31]...
+
+Maximum client wait time 301 ms (2000 ms allowed)
+...PASS [2026-04-09 23:15:44.40] (30.09s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 30.097s
+
+ALL PASS
+==================================================

@@ -1,0 +1,533 @@
+--------------------------------------------------
+TEST 10: Message count [RUN] (10pts)
+  START [2026-04-09 23:14:47.17]...
+
+...PASS [2026-04-09 23:14:47.46] (0.292s)
+==================================================
+
+Tests passed: 1/1
+Points: 10/10 (100.00%)
+Total time: 0.3s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 11: Old commands garbage collected [RUN] (15pts)
+  START [2026-04-09 23:14:47.69]...
+
+Using 4.6 kB at start.
+Using 39.1 MB after puts.
+Using 5.6 kB at end.
+...PASS [2026-04-09 23:14:52.04] (4.347s)
+==================================================
+
+Tests passed: 1/1
+Points: 15/15 (100.00%)
+Total time: 4.349s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 12: Single client, simple operations [RUN] [UNRELIABLE] (10pts)
+  START [2026-04-09 23:14:52.25]...
+
+...PASS [2026-04-09 23:14:53.19] (0.943s)
+==================================================
+
+Tests passed: 1/1
+Points: 10/10 (100.00%)
+Total time: 0.95s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 13: Two sequential clients [RUN] [UNRELIABLE] (10pts)
+  START [2026-04-09 23:14:53.40]...
+
+...PASS [2026-04-09 23:14:53.66] (0.265s)
+==================================================
+
+Tests passed: 1/1
+Points: 10/10 (100.00%)
+Total time: 0.271s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 14: Multiple clients, synchronous put/get [RUN] [UNRELIABLE] (15pts)
+  START [2026-04-09 23:14:53.89]...
+
+...PASS [2026-04-09 23:15:01.44] (7.552s)
+==================================================
+
+Tests passed: 1/1
+Points: 15/15 (100.00%)
+Total time: 7.56s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 15: Multiple clients, concurrent appends [RUN] [UNRELIABLE] (15pts)
+  START [2026-04-09 23:15:01.67]...
+
+...PASS [2026-04-09 23:15:02.38] (0.712s)
+==================================================
+
+Tests passed: 1/1
+Points: 15/15 (100.00%)
+Total time: 0.719s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 16: Multiple clients, single partition and heal [RUN] (15pts)
+  START [2026-04-09 23:15:02.60]...
+
+Maximum client wait time 300 ms (3000 ms allowed)
+...PASS [2026-04-09 23:15:14.09] (11.491s)
+==================================================
+
+Tests passed: 1/1
+Points: 15/15 (100.00%)
+Total time: 11.497s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 17: Constant repartitioning, check maximum wait time [RUN] (20pts)
+  START [2026-04-09 23:15:14.31]...
+
+Maximum client wait time 301 ms (2000 ms allowed)
+...PASS [2026-04-09 23:15:44.40] (30.09s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 30.097s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 18: Constant repartitioning, check maximum wait time [RUN] [UNRELIABLE] (30pts)
+  START [2026-04-09 23:15:44.67]...
+
+Maximum client wait time 618 ms (2000 ms allowed)
+...PASS [2026-04-09 23:16:14.76] (30.085s)
+==================================================
+
+Tests passed: 1/1
+Points: 30/30 (100.00%)
+Total time: 30.09s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 19: Constant repartitioning, full throughput [RUN] [UNRELIABLE] (30pts)
+  START [2026-04-09 23:16:14.96]...
+
+...PASS [2026-04-09 23:17:06.08] (51.122s)
+==================================================
+
+Tests passed: 1/1
+Points: 30/30 (100.00%)
+Total time: 51.127s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 1: Client throws InterruptedException [RUN] (5pts)
+  START [2026-04-09 23:14:39.08]...
+
+...PASS [2026-04-09 23:14:39.67] (0.586s)
+==================================================
+
+Tests passed: 1/1
+Points: 5/5 (100.00%)
+Total time: 0.594s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 20: Single client, simple operations [SEARCH] (20pts)
+  START [2026-04-09 23:17:06.33]...
+
+Starting breadth-first search...
+	Explored: 1, Depth: 0 (0.01s, 0.17K states/s)
+	Explored: 493, Depth: 6 (0.10s, 4.98K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 1, Depth: 6 (0.00s, 1.00K states/s)
+	Explored: 1687, Depth: 10 (0.10s, 16.22K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 12, Depth: 7 (0.01s, 1.20K states/s)
+	Explored: 307422, Depth: 14 (5.01s, 61.39K states/s)
+	Explored: 570656, Depth: 15 (10.01s, 57.02K states/s)
+	Explored: 829654, Depth: 15 (15.01s, 55.27K states/s)
+	Explored: 966509, Depth: 15 (20.04s, 48.24K states/s)
+	Explored: 983959, Depth: 15 (25.16s, 39.11K states/s)
+	Explored: 995813, Depth: 15 (30.77s, 32.37K states/s)
+	Explored: 995832, Depth: 15 (30.77s, 32.37K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 23, Depth: 8 (0.00s, 23.00K states/s)
+	Explored: 261237, Depth: 16 (5.00s, 52.24K states/s)
+	Explored: 470613, Depth: 17 (10.00s, 47.06K states/s)
+	Explored: 629189, Depth: 17 (15.00s, 41.94K states/s)
+	Explored: 786438, Depth: 17 (20.00s, 39.32K states/s)
+	Explored: 851353, Depth: 17 (25.37s, 33.56K states/s)
+	Explored: 861872, Depth: 17 (30.15s, 28.58K states/s)
+Search finished.
+
+...PASS [2026-04-09 23:18:07.54] (61.214s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 61.22s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 21: Single client, no progress in minority [SEARCH] (15pts)
+  START [2026-04-09 23:18:07.76]...
+
+Starting breadth-first search...
+	Explored: 1, Depth: 0 (0.01s, 0.14K states/s)
+	Explored: 329388, Depth: 13 (5.01s, 65.77K states/s)
+	Explored: 594784, Depth: 14 (10.01s, 59.43K states/s)
+	Explored: 829031, Depth: 15 (15.01s, 55.23K states/s)
+	Explored: 907339, Depth: 15 (20.74s, 43.76K states/s)
+	Explored: 919547, Depth: 15 (26.35s, 34.90K states/s)
+	Explored: 924754, Depth: 15 (30.14s, 30.68K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 6, Depth: 2 (0.01s, 0.60K states/s)
+	Explored: 7, Depth: 3 (0.00s, 3.50K states/s)
+Search finished.
+
+...PASS [2026-04-09 23:18:38.00] (30.241s)
+==================================================
+
+Tests passed: 1/1
+Points: 15/15 (100.00%)
+Total time: 30.248s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 22: Two clients, sequential appends visible [SEARCH] (30pts)
+  START [2026-04-09 23:18:38.21]...
+
+Starting breadth-first search...
+	Explored: 1, Depth: 0 (0.01s, 0.20K states/s)
+	Explored: 549, Depth: 6 (0.11s, 4.99K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 7, Depth: 7 (0.00s, 3.50K states/s)
+	Explored: 4990, Depth: 14 (0.22s, 23.00K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 8, Depth: 7 (0.00s, 8.00K states/s)
+	Explored: 1470, Depth: 12 (0.05s, 28.27K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 99, Depth: 10 (0.00s, 24.75K states/s)
+	Explored: 279452, Depth: 19 (5.01s, 55.83K states/s)
+	Explored: 557855, Depth: 19 (10.04s, 55.59K states/s)
+	Explored: 789220, Depth: 20 (15.04s, 52.49K states/s)
+	Explored: 934682, Depth: 20 (20.83s, 44.88K states/s)
+	Explored: 952082, Depth: 20 (26.29s, 36.21K states/s)
+	Explored: 960707, Depth: 20 (30.46s, 31.54K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 10, Depth: 8 (0.00s, 10.00K states/s)
+	Explored: 303096, Depth: 18 (5.00s, 60.61K states/s)
+	Explored: 560348, Depth: 19 (10.01s, 55.98K states/s)
+	Explored: 804335, Depth: 19 (15.01s, 53.59K states/s)
+	Explored: 958379, Depth: 20 (20.01s, 47.89K states/s)
+	Explored: 997095, Depth: 20 (25.07s, 39.78K states/s)
+	Explored: 1000500, Depth: 20 (30.84s, 32.44K states/s)
+	Explored: 1000508, Depth: 20 (30.84s, 32.44K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 80, Depth: 12 (0.01s, 11.43K states/s)
+	Explored: 1129, Depth: 21 (0.03s, 36.42K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 18, Depth: 10 (0.00s, 18.00K states/s)
+	Explored: 144, Depth: 17 (0.01s, 18.00K states/s)
+Search finished.
+
+...PASS [2026-04-09 23:19:40.02] (61.803s)
+==================================================
+
+Tests passed: 1/1
+Points: 30/30 (100.00%)
+Total time: 61.809s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 23: Two clients, five servers, multiple leader changes [SEARCH] (20pts)
+  START [2026-04-09 23:19:40.24]...
+
+Starting breadth-first search...
+	Explored: 1, Depth: 0 (0.01s, 0.14K states/s)
+	Explored: 1463, Depth: 5 (0.19s, 7.91K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 2, Depth: 6 (0.00s, 2.00K states/s)
+	Explored: 19, Depth: 7 (0.00s, 6.33K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 14, Depth: 7 (0.00s, 14.00K states/s)
+	Explored: 8799, Depth: 11 (0.22s, 39.81K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 616, Depth: 16 (0.01s, 61.60K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 6, Depth: 14 (0.00s, 3.00K states/s)
+	Explored: 14307, Depth: 23 (0.55s, 25.87K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 574, Depth: 27 (0.03s, 19.79K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 62, Depth: 25 (0.00s, 20.67K states/s)
+	Explored: 184287, Depth: 34 (5.00s, 36.84K states/s)
+	Explored: 341804, Depth: 34 (10.00s, 34.17K states/s)
+	Explored: 473505, Depth: 35 (15.00s, 31.56K states/s)
+	Explored: 591459, Depth: 35 (20.00s, 29.57K states/s)
+	Explored: 637076, Depth: 35 (25.74s, 24.75K states/s)
+	Explored: 646262, Depth: 35 (30.03s, 21.52K states/s)
+Search finished.
+
+...PASS [2026-04-09 23:20:11.37] (31.13s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 31.138s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 24: Handling of logs with holes [SEARCH] (0pts)
+  START [2026-04-09 23:20:11.59]...
+
+Starting breadth-first search...
+	Explored: 1, Depth: 0 (0.01s, 0.14K states/s)
+	Explored: 9546, Depth: 6 (0.39s, 24.35K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 3, Depth: 7 (0.00s, 3.00K states/s)
+	Explored: 258869, Depth: 17 (5.00s, 51.76K states/s)
+	Explored: 484572, Depth: 18 (10.00s, 48.45K states/s)
+	Explored: 706423, Depth: 18 (15.05s, 46.95K states/s)
+	Explored: 855956, Depth: 18 (20.04s, 42.71K states/s)
+Search finished.
+
+...PASS [2026-04-09 23:20:32.12] (20.529s)
+==================================================
+
+Tests passed: 1/1
+Points: 0/0 (0.00%)
+Total time: 20.536s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 25: Three server random search [SEARCH] (20pts)
+  START [2026-04-09 23:20:32.34]...
+
+Starting random depth-first search...
+	Explored: 5, Num Probes: 5 (0.01s, 0.42K explored/s)
+	Explored: 1845841, Num Probes: 1634 (5.01s, 368.28K explored/s)
+	Explored: 4414207, Num Probes: 3901 (10.01s, 440.89K explored/s)
+	Explored: 7024255, Num Probes: 6206 (15.01s, 467.88K explored/s)
+	Explored: 9649285, Num Probes: 8523 (20.01s, 482.32K explored/s)
+Search finished.
+
+...PASS [2026-04-09 23:20:52.42] (20.088s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 20.095s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 26: Five server random search [SEARCH] (20pts)
+  START [2026-04-09 23:20:52.64]...
+
+Starting random depth-first search...
+	Explored: 5, Num Probes: 6 (0.01s, 1.00K explored/s)
+	Explored: 1402342, Num Probes: 1125 (5.01s, 280.19K explored/s)
+	Explored: 3101830, Num Probes: 2485 (10.01s, 310.03K explored/s)
+	Explored: 4867370, Num Probes: 3898 (15.01s, 324.38K explored/s)
+	Explored: 6635067, Num Probes: 5310 (20.02s, 331.44K explored/s)
+Search finished.
+
+...PASS [2026-04-09 23:21:12.74] (20.105s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 20.111s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 27: Paxos runs in singleton group [RUN] [SEARCH] (0pts)
+  START [2026-04-09 23:21:12.95]...
+
+Starting random depth-first search...
+	Explored: 6, Num Probes: 6 (0.00s, 6.00K explored/s)
+	Explored: 1733459, Num Probes: 1499 (5.00s, 346.62K explored/s)
+	Explored: 1736945, Num Probes: 1499 (5.03s, 345.45K explored/s)
+Search finished.
+
+Checking that 3 commands can be processed in 6 steps
+Starting breadth-first search...
+	Explored: 0, Depth: 0 (0.00s, 0.00K states/s)
+	Explored: 17, Depth: 6 (0.01s, 2.83K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 0, Depth: 0 (0.01s, 0.00K states/s)
+	Explored: 30, Depth: 9 (0.01s, 5.00K states/s)
+Search finished.
+
+...PASS [2026-04-09 23:21:20.52] (7.574s)
+==================================================
+
+Tests passed: 1/1
+Points: 0/0 (0.00%)
+Total time: 7.581s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2: Single client, simple operations [RUN] (5pts)
+  START [2026-04-09 23:14:39.88]...
+
+...PASS [2026-04-09 23:14:40.07] (0.191s)
+==================================================
+
+Tests passed: 1/1
+Points: 5/5 (100.00%)
+Total time: 0.198s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 3: Progress with no partition [RUN] (5pts)
+  START [2026-04-09 23:14:40.28]...
+
+...PASS [2026-04-09 23:14:40.47] (0.191s)
+==================================================
+
+Tests passed: 1/1
+Points: 5/5 (100.00%)
+Total time: 0.197s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 4: Progress in majority [RUN] (5pts)
+  START [2026-04-09 23:14:40.75]...
+
+...PASS [2026-04-09 23:14:40.94] (0.195s)
+==================================================
+
+Tests passed: 1/1
+Points: 5/5 (100.00%)
+Total time: 0.202s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 5: No progress in minority [RUN] (5pts)
+  START [2026-04-09 23:14:41.15]...
+
+...PASS [2026-04-09 23:14:43.23] (2.081s)
+==================================================
+
+Tests passed: 1/1
+Points: 5/5 (100.00%)
+Total time: 2.087s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 6: Progress after partition healed [RUN] (5pts)
+  START [2026-04-09 23:14:43.47]...
+
+...PASS [2026-04-09 23:14:45.57] (2.1s)
+==================================================
+
+Tests passed: 1/1
+Points: 5/5 (100.00%)
+Total time: 2.107s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 7: One server switches partitions [RUN] (10pts)
+  START [2026-04-09 23:14:45.78]...
+
+...PASS [2026-04-09 23:14:46.07] (0.288s)
+==================================================
+
+Tests passed: 1/1
+Points: 10/10 (100.00%)
+Total time: 0.294s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 8: Multiple clients, synchronous put/get [RUN] (10pts)
+  START [2026-04-09 23:14:46.27]...
+
+...PASS [2026-04-09 23:14:46.53] (0.267s)
+==================================================
+
+Tests passed: 1/1
+Points: 10/10 (100.00%)
+Total time: 0.272s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 9: Multiple clients, concurrent appends [RUN] (10pts)
+  START [2026-04-09 23:14:46.75]...
+
+...PASS [2026-04-09 23:14:46.95] (0.208s)
+==================================================
+
+Tests passed: 1/1
+Points: 10/10 (100.00%)
+Total time: 0.215s
+
+ALL PASS
+==================================================

@@ -1,0 +1,16 @@
+--------------------------------------------------
+TEST 11: Old commands garbage collected [RUN] (15pts)
+  START [2026-04-09 23:14:47.69]...
+
+Using 4.6 kB at start.
+Using 39.1 MB after puts.
+Using 5.6 kB at end.
+...PASS [2026-04-09 23:14:52.04] (4.347s)
+==================================================
+
+Tests passed: 1/1
+Points: 15/15 (100.00%)
+Total time: 4.349s
+
+ALL PASS
+==================================================

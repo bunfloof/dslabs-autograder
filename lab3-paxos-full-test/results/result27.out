@@ -1,0 +1,30 @@
+--------------------------------------------------
+TEST 27: Paxos runs in singleton group [RUN] [SEARCH] (0pts)
+  START [2026-04-09 23:21:12.95]...
+
+Starting random depth-first search...
+	Explored: 6, Num Probes: 6 (0.00s, 6.00K explored/s)
+	Explored: 1733459, Num Probes: 1499 (5.00s, 346.62K explored/s)
+	Explored: 1736945, Num Probes: 1499 (5.03s, 345.45K explored/s)
+Search finished.
+
+Checking that 3 commands can be processed in 6 steps
+Starting breadth-first search...
+	Explored: 0, Depth: 0 (0.00s, 0.00K states/s)
+	Explored: 17, Depth: 6 (0.01s, 2.83K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 0, Depth: 0 (0.01s, 0.00K states/s)
+	Explored: 30, Depth: 9 (0.01s, 5.00K states/s)
+Search finished.
+
+...PASS [2026-04-09 23:21:20.52] (7.574s)
+==================================================
+
+Tests passed: 1/1
+Points: 0/0 (0.00%)
+Total time: 7.581s
+
+ALL PASS
+==================================================

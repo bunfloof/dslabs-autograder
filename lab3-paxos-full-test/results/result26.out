@@ -1,0 +1,21 @@
+--------------------------------------------------
+TEST 26: Five server random search [SEARCH] (20pts)
+  START [2026-04-09 23:20:52.64]...
+
+Starting random depth-first search...
+	Explored: 5, Num Probes: 6 (0.01s, 1.00K explored/s)
+	Explored: 1402342, Num Probes: 1125 (5.01s, 280.19K explored/s)
+	Explored: 3101830, Num Probes: 2485 (10.01s, 310.03K explored/s)
+	Explored: 4867370, Num Probes: 3898 (15.01s, 324.38K explored/s)
+	Explored: 6635067, Num Probes: 5310 (20.02s, 331.44K explored/s)
+Search finished.
+
+...PASS [2026-04-09 23:21:12.74] (20.105s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 20.111s
+
+ALL PASS
+==================================================

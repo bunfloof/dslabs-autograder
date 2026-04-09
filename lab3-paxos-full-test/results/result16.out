@@ -1,0 +1,14 @@
+--------------------------------------------------
+TEST 16: Multiple clients, single partition and heal [RUN] (15pts)
+  START [2026-04-09 23:15:02.60]...
+
+Maximum client wait time 300 ms (3000 ms allowed)
+...PASS [2026-04-09 23:15:14.09] (11.491s)
+==================================================
+
+Tests passed: 1/1
+Points: 15/15 (100.00%)
+Total time: 11.497s
+
+ALL PASS
+==================================================
