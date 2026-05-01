@@ -1,0 +1,49 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+# Compiled Java
+out/
+
+# Saved traces
+traces/
+*.trace
+
+# IntelliJ
+.idea/workspace.xml
+.idea/tasks.xml
+.idea-out
+
+# Common OS/Editor files
+*~
+._*
+
+.DS_Store
+.DS_Store?
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+.idea/

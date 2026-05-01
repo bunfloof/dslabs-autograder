@@ -1,0 +1,44 @@
+--------------------------------------------------
+TEST 2.10: Single client, single group [SEARCH] (20pts)
+  START [2026-04-30 22:52:04.93]...
+
+Starting breadth-first search...
+	Explored: 2, Depth: 1 (0.01s, 0.20K states/s)
+	Explored: 14, Depth: 2 (0.05s, 0.26K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 1, Depth: 2 (0.00s, 1.00K states/s)
+	Explored: 86632, Depth: 16 (5.00s, 17.32K states/s)
+	Explored: 93410, Depth: 16 (5.32s, 17.56K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 53, Depth: 5 (0.00s, 26.50K states/s)
+	Explored: 145675, Depth: 17 (5.00s, 29.12K states/s)
+	Explored: 265224, Depth: 18 (10.00s, 26.52K states/s)
+	Explored: 378588, Depth: 18 (15.00s, 25.24K states/s)
+	Explored: 469168, Depth: 18 (20.03s, 23.42K states/s)
+	Explored: 555550, Depth: 19 (25.03s, 22.20K states/s)
+	Explored: 640731, Depth: 19 (30.00s, 21.36K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 1, Depth: 0 (0.00s, 1.00K states/s)
+	Explored: 67514, Depth: 25 (5.00s, 13.50K states/s)
+	Explored: 109289, Depth: 26 (10.00s, 10.93K states/s)
+	Explored: 164575, Depth: 27 (15.00s, 10.97K states/s)
+	Explored: 214808, Depth: 28 (20.00s, 10.74K states/s)
+	Explored: 260096, Depth: 28 (25.00s, 10.40K states/s)
+	Explored: 302500, Depth: 28 (30.01s, 10.08K states/s)
+Search finished.
+
+...PASS [2026-04-30 22:53:10.40] (65.472s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 65.48s
+
+ALL PASS
+==================================================

@@ -1,0 +1,105 @@
+{
+    "score": 260.0,
+    "execution_time": null,
+    "tests": [
+        {
+            "number": "2.1",
+            "name": "Single group, basic workload [RUN]",
+            "max_score": 10.0,
+            "output": "PASS",
+            "score": 10.0
+        },
+        {
+            "number": "2.2",
+            "name": "Multi-group join/leave [RUN]",
+            "max_score": 15.0,
+            "output": "PASS",
+            "score": 15.0
+        },
+        {
+            "number": "2.3",
+            "name": "Shards move when group joins [RUN]",
+            "max_score": 15.0,
+            "output": "PASS",
+            "score": 15.0
+        },
+        {
+            "number": "2.4",
+            "name": "Shards move when moved by ShardMaster [RUN]",
+            "max_score": 15.0,
+            "output": "PASS",
+            "score": 15.0
+        },
+        {
+            "number": "2.5",
+            "name": "Progress with majorities in each group [RUN]",
+            "max_score": 15.0,
+            "output": "PASS",
+            "score": 15.0
+        },
+        {
+            "number": "2.6",
+            "name": "Repeated partitioning of each group [RUN]",
+            "max_score": 20.0,
+            "output": "PASS",
+            "score": 20.0
+        },
+        {
+            "number": "2.7",
+            "name": "Repeated shard movement [RUN]",
+            "max_score": 20.0,
+            "output": "PASS",
+            "score": 20.0
+        },
+        {
+            "number": "2.8",
+            "name": "Multi-group join/leave [RUN] [UNRELIABLE]",
+            "max_score": 20.0,
+            "output": "PASS",
+            "score": 20.0
+        },
+        {
+            "number": "2.9",
+            "name": "Repeated shard movement [RUN] [UNRELIABLE]",
+            "max_score": 30.0,
+            "output": "PASS",
+            "score": 30.0
+        },
+        {
+            "number": "2.10",
+            "name": "Single client, single group [SEARCH]",
+            "max_score": 20.0,
+            "output": "PASS",
+            "score": 20.0
+        },
+        {
+            "number": "2.11",
+            "name": "Single client, multi-group [SEARCH]",
+            "max_score": 20.0,
+            "output": "PASS",
+            "score": 20.0
+        },
+        {
+            "number": "2.12",
+            "name": "Multi-client, multi-group [SEARCH]",
+            "max_score": 20.0,
+            "output": "PASS",
+            "score": 20.0
+        },
+        {
+            "number": "2.13",
+            "name": "One server per group random search [SEARCH]",
+            "max_score": 20.0,
+            "output": "PASS",
+            "score": 20.0
+        },
+        {
+            "number": "2.14",
+            "name": "Multiple servers per group random search [SEARCH]",
+            "max_score": 20.0,
+            "output": "PASS",
+            "score": 20.0
+        }
+    ],
+    "stdout_visibility": "visible"
+}

@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+cd /autograder/source
+cp -rp /autograder/submission/labs dslabs
+cd dslabs
+for ((i=1;i<=14;i=i+1))
+do
+   timeout 120 ./run-tests.py --lab 4 --part 2 -n $i > /autograder/results/result$i.out
+done
+cd /autograder/source
+cat /autograder/results/result*.out > /autograder/results/results.out
+./gen_output.py /autograder/results/results.out > /autograder/results/results.json

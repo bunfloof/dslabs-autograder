@@ -1,0 +1,21 @@
+--------------------------------------------------
+TEST 2.14: Multiple servers per group random search [SEARCH] (20pts)
+  START [2026-04-30 22:56:06.66]...
+
+Starting random depth-first search...
+	Explored: 6, Num Probes: 6 (0.01s, 1.00K explored/s)
+	Explored: 423234, Num Probes: 320 (5.02s, 84.31K explored/s)
+	Explored: 1104765, Num Probes: 833 (10.02s, 110.24K explored/s)
+	Explored: 1782005, Num Probes: 1341 (15.03s, 118.59K explored/s)
+	Explored: 2438539, Num Probes: 1831 (20.05s, 121.64K explored/s)
+Search finished.
+
+...PASS [2026-04-30 22:56:26.80] (20.143s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 20.149s
+
+ALL PASS
+==================================================

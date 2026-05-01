@@ -1,0 +1,317 @@
+--------------------------------------------------
+TEST 2.10: Single client, single group [SEARCH] (20pts)
+  START [2026-04-30 22:52:04.93]...
+
+Starting breadth-first search...
+	Explored: 2, Depth: 1 (0.01s, 0.20K states/s)
+	Explored: 14, Depth: 2 (0.05s, 0.26K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 1, Depth: 2 (0.00s, 1.00K states/s)
+	Explored: 86632, Depth: 16 (5.00s, 17.32K states/s)
+	Explored: 93410, Depth: 16 (5.32s, 17.56K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 53, Depth: 5 (0.00s, 26.50K states/s)
+	Explored: 145675, Depth: 17 (5.00s, 29.12K states/s)
+	Explored: 265224, Depth: 18 (10.00s, 26.52K states/s)
+	Explored: 378588, Depth: 18 (15.00s, 25.24K states/s)
+	Explored: 469168, Depth: 18 (20.03s, 23.42K states/s)
+	Explored: 555550, Depth: 19 (25.03s, 22.20K states/s)
+	Explored: 640731, Depth: 19 (30.00s, 21.36K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 1, Depth: 0 (0.00s, 1.00K states/s)
+	Explored: 67514, Depth: 25 (5.00s, 13.50K states/s)
+	Explored: 109289, Depth: 26 (10.00s, 10.93K states/s)
+	Explored: 164575, Depth: 27 (15.00s, 10.97K states/s)
+	Explored: 214808, Depth: 28 (20.00s, 10.74K states/s)
+	Explored: 260096, Depth: 28 (25.00s, 10.40K states/s)
+	Explored: 302500, Depth: 28 (30.01s, 10.08K states/s)
+Search finished.
+
+...PASS [2026-04-30 22:53:10.40] (65.472s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 65.48s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.11: Single client, multi-group [SEARCH] (20pts)
+  START [2026-04-30 22:53:10.72]...
+
+Starting breadth-first search...
+	Explored: 1, Depth: 0 (0.01s, 0.17K states/s)
+	Explored: 18, Depth: 2 (0.04s, 0.45K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 1, Depth: 2 (0.00s, 1.00K states/s)
+	Explored: 33551, Depth: 13 (1.98s, 16.94K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 1, Depth: 13 (0.00s, 1.00K states/s)
+	Explored: 186, Depth: 18 (0.01s, 18.60K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 1, Depth: 17 (0.00s, 1.00K states/s)
+	Explored: 84202, Depth: 29 (5.00s, 16.84K states/s)
+	Explored: 166249, Depth: 30 (10.00s, 16.62K states/s)
+	Explored: 228162, Depth: 31 (15.00s, 15.21K states/s)
+	Explored: 295900, Depth: 31 (20.00s, 14.79K states/s)
+	Explored: 353108, Depth: 31 (25.00s, 14.12K states/s)
+	Explored: 407339, Depth: 31 (30.00s, 13.58K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 8, Depth: 4 (0.00s, 8.00K states/s)
+	Explored: 135466, Depth: 13 (5.00s, 27.09K states/s)
+	Explored: 270483, Depth: 14 (10.00s, 27.04K states/s)
+	Explored: 384731, Depth: 14 (15.03s, 25.60K states/s)
+	Explored: 474417, Depth: 15 (20.03s, 23.69K states/s)
+	Explored: 575802, Depth: 15 (25.03s, 23.01K states/s)
+	Explored: 665730, Depth: 15 (30.00s, 22.19K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 6, Depth: 4 (0.00s, 6.00K states/s)
+	Explored: 76050, Depth: 21 (5.00s, 15.21K states/s)
+	Explored: 144301, Depth: 23 (10.00s, 14.43K states/s)
+	Explored: 203871, Depth: 23 (15.01s, 13.59K states/s)
+Search finished.
+
+...PASS [2026-04-30 22:54:27.85] (77.13s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 77.137s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.12: Multi-client, multi-group [SEARCH] (20pts)
+  START [2026-04-30 22:54:28.10]...
+
+Starting breadth-first search...
+	Explored: 1, Depth: 0 (0.01s, 0.14K states/s)
+	Explored: 22, Depth: 2 (0.04s, 0.54K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 1, Depth: 2 (0.00s, 1.00K states/s)
+	Explored: 149349, Depth: 14 (5.02s, 29.74K states/s)
+	Explored: 310716, Depth: 15 (10.02s, 31.00K states/s)
+	Explored: 449397, Depth: 16 (15.03s, 29.90K states/s)
+	Explored: 504735, Depth: 16 (17.38s, 29.04K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 5, Depth: 17 (0.00s, 5.00K states/s)
+	Explored: 6629, Depth: 24 (0.40s, 16.53K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 6, Depth: 17 (0.01s, 0.60K states/s)
+	Explored: 33, Depth: 18 (0.00s, 11.00K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 1, Depth: 18 (0.00s, 1.00K states/s)
+	Explored: 84318, Depth: 29 (5.00s, 16.86K states/s)
+	Explored: 160500, Depth: 30 (10.00s, 16.05K states/s)
+	Explored: 229844, Depth: 30 (15.00s, 15.32K states/s)
+	Explored: 294790, Depth: 31 (20.00s, 14.74K states/s)
+	Explored: 342580, Depth: 31 (25.01s, 13.70K states/s)
+	Explored: 413233, Depth: 31 (30.01s, 13.77K states/s)
+Search finished.
+
+Starting breadth-first search...
+	Explored: 1, Depth: 18 (0.00s, 0.25K states/s)
+	Explored: 34217, Depth: 45 (5.00s, 6.84K states/s)
+	Explored: 71246, Depth: 46 (10.01s, 7.11K states/s)
+	Explored: 101150, Depth: 47 (15.02s, 6.73K states/s)
+	Explored: 129736, Depth: 48 (20.02s, 6.48K states/s)
+	Explored: 159657, Depth: 48 (25.02s, 6.38K states/s)
+	Explored: 188848, Depth: 48 (30.00s, 6.29K states/s)
+Search finished.
+
+...PASS [2026-04-30 22:55:46.03] (77.932s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 77.938s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.13: One server per group random search [SEARCH] (20pts)
+  START [2026-04-30 22:55:46.28]...
+
+Starting random depth-first search...
+	Explored: 12, Num Probes: 6 (0.01s, 0.86K explored/s)
+	Explored: 609416, Num Probes: 521 (5.01s, 121.54K explored/s)
+	Explored: 1380106, Num Probes: 1176 (10.01s, 137.82K explored/s)
+	Explored: 2176304, Num Probes: 1852 (15.01s, 144.95K explored/s)
+	Explored: 2916939, Num Probes: 2478 (20.05s, 145.46K explored/s)
+Search finished.
+
+...PASS [2026-04-30 22:56:06.43] (20.15s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 20.157s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.14: Multiple servers per group random search [SEARCH] (20pts)
+  START [2026-04-30 22:56:06.66]...
+
+Starting random depth-first search...
+	Explored: 6, Num Probes: 6 (0.01s, 1.00K explored/s)
+	Explored: 423234, Num Probes: 320 (5.02s, 84.31K explored/s)
+	Explored: 1104765, Num Probes: 833 (10.02s, 110.24K explored/s)
+	Explored: 1782005, Num Probes: 1341 (15.03s, 118.59K explored/s)
+	Explored: 2438539, Num Probes: 1831 (20.05s, 121.64K explored/s)
+Search finished.
+
+...PASS [2026-04-30 22:56:26.80] (20.143s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 20.149s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.1: Single group, basic workload [RUN] (10pts)
+  START [2026-04-30 22:48:18.33]...
+
+...PASS [2026-04-30 22:48:18.60] (0.272s)
+==================================================
+
+Tests passed: 1/1
+Points: 10/10 (100.00%)
+Total time: 0.28s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.2: Multi-group join/leave [RUN] (15pts)
+  START [2026-04-30 22:48:18.81]...
+
+...PASS [2026-04-30 22:48:29.14] (10.332s)
+==================================================
+
+Tests passed: 1/1
+Points: 15/15 (100.00%)
+Total time: 10.339s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.3: Shards move when group joins [RUN] (15pts)
+  START [2026-04-30 22:48:29.37]...
+
+...PASS [2026-04-30 22:48:44.67] (15.305s)
+==================================================
+
+Tests passed: 1/1
+Points: 15/15 (100.00%)
+Total time: 15.313s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.4: Shards move when moved by ShardMaster [RUN] (15pts)
+  START [2026-04-30 22:48:44.92]...
+
+...PASS [2026-04-30 22:49:00.23] (15.316s)
+==================================================
+
+Tests passed: 1/1
+Points: 15/15 (100.00%)
+Total time: 15.324s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.5: Progress with majorities in each group [RUN] (15pts)
+  START [2026-04-30 22:49:00.45]...
+
+...PASS [2026-04-30 22:49:10.85] (10.402s)
+==================================================
+
+Tests passed: 1/1
+Points: 15/15 (100.00%)
+Total time: 10.409s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.6: Repeated partitioning of each group [RUN] (20pts)
+  START [2026-04-30 22:49:11.09]...
+
+Maximum client wait time 296 ms (2000 ms allowed)
+...PASS [2026-04-30 22:50:01.20] (50.105s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 50.112s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.7: Repeated shard movement [RUN] (20pts)
+  START [2026-04-30 22:50:01.43]...
+
+Maximum client wait time 163 ms (4000 ms allowed)
+...PASS [2026-04-30 22:50:51.56] (50.13s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 50.136s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.8: Multi-group join/leave [RUN] [UNRELIABLE] (20pts)
+  START [2026-04-30 22:50:51.77]...
+
+...PASS [2026-04-30 22:51:14.38] (22.614s)
+==================================================
+
+Tests passed: 1/1
+Points: 20/20 (100.00%)
+Total time: 22.621s
+
+ALL PASS
+==================================================
+--------------------------------------------------
+TEST 2.9: Repeated shard movement [RUN] [UNRELIABLE] (30pts)
+  START [2026-04-30 22:51:14.59]...
+
+Maximum client wait time 533 ms (4000 ms allowed)
+...PASS [2026-04-30 22:52:04.72] (50.128s)
+==================================================
+
+Tests passed: 1/1
+Points: 30/30 (100.00%)
+Total time: 50.135s
+
+ALL PASS
+==================================================
